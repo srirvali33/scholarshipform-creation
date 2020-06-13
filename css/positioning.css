@@ -1,0 +1,46 @@
+.positioningbox{
+    width: 720px;
+    height: 500px;
+    border: 1px solid #000;
+    margin: 80px auto;
+    position: relative;
+    
+}
+
+.absolute{
+    width: 320px;
+    height: 120;
+    border: 1px solid red;
+    position: absolute;
+    top: -50px;
+    left: -20%;
+
+}
+
+.layer1{
+    width: 320px;
+    height: 120;
+    background:  red;
+    top: 10px;
+    left: 80px;
+    position: relative;
+    z-index: 2;
+}
+.layer2{
+    width: 320px;
+    height: 120;
+    background:  green;
+    top: -80px;
+    left: 35px;
+    position: relative;
+    z-index: 3;
+}
+.layer3{
+    width: 320px;
+    height: 120;
+    background:  yellow;
+    top: -220px;
+    left: 120px;
+    position: relative;
+    z-index: 1;
+}

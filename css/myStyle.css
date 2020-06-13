@@ -1,0 +1,47 @@
+body{
+    background-color: #cbcfcb;
+}
+
+.myArticle{
+    margin: 20px 80px;
+    padding: 40px 20px;
+    border: 6px solid #024d02;
+}
+.myArticle-inactive{
+    margin: 20px 80px;
+    padding: 40px 20px;
+    border: 6px solid #a6a7a6;
+    color: #a6a7a6;
+}
+
+h3{
+    color: #fc7b3a;
+    padding: 15px;  
+
+}
+
+p{
+    color: #fc4732;
+    font-size: 16px;
+}
+section{
+    margin: 20px 80px;
+    padding: 40px 20px;
+    border: 5px solid red;  
+
+}
+.displayboxe{    
+    width: 300px;
+    height: 240px;
+    border: 1px solid #000;
+    margin: 8px;
+    float: right;
+    box-shadow: 3px 3px 9px #4034eb;
+    border-radius: 8px;
+
+    
+
+}
+
+
+

@@ -1,0 +1,42 @@
+.scroll{
+    width: 320px;
+    height: 80px;
+    display: block;
+    overflow: scroll;
+    margin: 90px auto;
+    border: 1px solid #000;
+}
+.auto{
+    width: 320px;
+    height: 80px;
+    display: block;
+    overflow: auto;
+    margin: 90px auto;
+    border: 1px solid #000;
+}
+
+.borders{
+
+    width: 320px;
+    height: 80px;
+    margin: 90px auto;
+    display: block;
+    border-top: 3px solid red;
+    border-bottom: 3px solid green;
+    border-left: 5px solid pink;
+    border-right: 5px solid yellow;
+
+}
+.positioning{
+    width: 320px;
+    height: 160px;    
+    display: block;
+    position: absolute;
+    border-top: 3px solid red;
+    border-bottom: 3px solid green;
+    border-left: 5px solid pink;
+    border-right: 5px solid yellow;
+    bottom: 50px;
+    right: 100px;
+
+}
